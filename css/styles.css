@@ -2,6 +2,10 @@ html {
     width: 100%;
 }
 
+@media (max-width: 1145px) {
+    
+}
+
 body {
     margin: 0;
     background-image: url(../images/bg.PNG);
@@ -324,84 +328,161 @@ body {
 }
 
 #content2 {
-    height: 480px;
+    display: block;
     width: 878px;
     float: right;
-    display: block;
     background-color: white;
     margin-bottom: 40px;
     border-radius: 5px;
-}
-
-#firstParagraph {
-    display: inline-block;
-    width: 736px;
-    height: 132px;
-    float: right;
-    margin-right: 20px;
-    font-size: 14px;
-}
-
-#firstParagraph span {
-    display: block;
-    margin-bottom: 20px;
-}
-
-#secondParagraph {
-    display: inline-block;
-    width: 781px;
-    height: 194px;
-    float: right;
-    margin-right: 20px;
-    font-size: 14px;
-}
-
-#secondParagraph span:nth-child(1) {
-    display: block;
-    margin-bottom: 0px;
-}
-
-#secondParagraph span:nth-child(3) {
-    display: block;
-    margin-bottom: -5px;  
-}
-
-
-#firstParImg {
-    display: inline-block;
-}
-
-#secondParImg {
-    display: inline-block;
-    margin-top: -8px;
+    
 }
 
 .head {
     display: block;
     font-size: 26px;
-    margin-top: 35px;
-    margin-left: 20px;
+    color: #6a6a6a;
+    margin-left: 25px;
+    margin-top: 28px;
 }
 
-#firstParImg {
-    margin-left: 20px;
-    
+.firstParagraph {
+    display: block;
 }
 
-#secondParImg {
-    margin-left: 20px;
+.textOne {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.textOneImg {
+    display: inline-block;
+    margin-right: 10px;
+    height: 53px;
+    width: 55px;
+    background-image: url(../images/textLogo1.png);
+}
+
+.textOne span {
+    display: inline-block;
+    font-size: 14px;
+    color: #484848;
+    width: 738px;
+}
+
+.textTwo {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.textTwoImg {
+    display: inline-block;
+    margin-right: 15px;
+    height: 59px;
+    width: 49px;
+    background-image: url(../images/textLogo2.png);
+}
+
+.textTwo span {
+    display: inline-block;
+    font-size: 14px;
+    color: #484848;
+    width: 738px;
+}
+
+
+.secondParagraph {
+    display: block;
+}
+
+.parOne {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.parOneImg {
+    display: inline-block;
+    margin-right: 10px;
+    height: 34px;
+    width: 34px;
+    background-image: url(../images/marker1.png);
+}
+
+.parOne span {
+    display: inline-block;
+    font-size: 14px;
+    color: #484848;
+    width: 738px;
+}
+
+.parTwo {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.parTwoImg {
+    display: inline-block;
+    margin-right: 10px;
+    height: 34px;
+    width: 34px;
+    background-image: url(../images/marker2.png);
+}
+
+.parTwo span {
+    display: inline-block;
+    font-size: 14px;
+    color: #484848;
+    width: 738px;
+}
+
+.parThree {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.parThreeImg {
+    display: inline-block;
+    margin-right: 10px;
+    height: 34px;
+    width: 34px;
+    background-image: url(../images/marker3.png);
+}
+
+.parThree span {
+    display: inline-block;
+    font-size: 14px;
+    color: #484848;
+    width: 738px;
+    margin-bottom: 55px;
 }
 
 .space-text {
-    display: block;
+    display: inline-block;
     margin-left: 268px;
     font-size: 25.99px;
+}
+
+.space-text2 {
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+    color: orange;
+    margin-top: 10px;
+    text-decoration: underline;
 }
 
 
 #content3 {
     width: 878px;
-    height: 320px;
     display: block;
     float: right;
     background-color: white;
@@ -420,6 +501,7 @@ body {
     color: white;
     margin-left: 20px;
     text-decoration: none;
+    margin-bottom: 40px;
 }
 
 #button2 span {
@@ -435,11 +517,13 @@ body {
     margin-top: 30px;
 }
 
-.customer img {
+.rating {
     display: block;
-    margin-left: -4px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    width: 89px;
+    height: 19px;
+    background-image: url(../images/5-stars.PNG);
+    margin-left: -5px;
+    margin-top: 5px;
 }
 
 .customer span:nth-child(1) {
@@ -462,16 +546,16 @@ body {
     font-size: 16px;
 }
 
-.review img {
-    margin-left: -3px;
-    margin-bottom: -2px;
-    margin-right: -2px;
+.openMore {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-image: url(../images/more.jpg);
+    margin-bottom: -1px;
 }
 
 #content3 a {
     text-decoration: none;
     font-size: 16px;
 }
-
-
-
+    
