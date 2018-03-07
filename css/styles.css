@@ -161,6 +161,11 @@ body {
     margin-bottom: -6px;
 }
 
+#left-bar nav:last-child {
+    display: block;
+    margin-bottom: 25px;
+}
+
 #content-space {
     height: 538px;
     width: 828px;
