@@ -129,7 +129,6 @@ body {
 
 #left-bar {
     width: 242px;
-    height: 472px;
     float: left;
     background-color: white;
     border-radius: 5px;
@@ -152,6 +151,7 @@ body {
     font-size: 16px;
     margin-bottom: -6px;
 }
+
 
 #left-bar a:hover {
     display: block;
@@ -339,7 +339,6 @@ body {
     background-color: white;
     margin-bottom: 40px;
     border-radius: 5px;
-    
 }
 
 .head {
@@ -367,6 +366,7 @@ body {
     height: 53px;
     width: 55px;
     background-image: url(../images/textLogo1.png);
+    vertical-align: middle;
 }
 
 .textOne span {
@@ -374,6 +374,7 @@ body {
     font-size: 14px;
     color: #484848;
     width: 738px;
+    vertical-align: middle;
 }
 
 .textTwo {
@@ -389,6 +390,7 @@ body {
     height: 59px;
     width: 49px;
     background-image: url(../images/textLogo2.png);
+    vertical-align: middle;
 }
 
 .textTwo span {
@@ -396,6 +398,7 @@ body {
     font-size: 14px;
     color: #484848;
     width: 738px;
+    vertical-align: middle;
 }
 
 
@@ -416,6 +419,7 @@ body {
     height: 34px;
     width: 34px;
     background-image: url(../images/marker1.png);
+    vertical-align: middle;
 }
 
 .parOne span {
@@ -423,6 +427,7 @@ body {
     font-size: 14px;
     color: #484848;
     width: 738px;
+    vertical-align: middle;
 }
 
 .parTwo {
@@ -438,6 +443,7 @@ body {
     height: 34px;
     width: 34px;
     background-image: url(../images/marker2.png);
+    vertical-align: middle;
 }
 
 .parTwo span {
@@ -445,13 +451,14 @@ body {
     font-size: 14px;
     color: #484848;
     width: 738px;
+    vertical-align: middle;
 }
 
 .parThree {
     display: block;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .parThreeImg {
@@ -460,6 +467,7 @@ body {
     height: 34px;
     width: 34px;
     background-image: url(../images/marker3.png);
+    vertical-align: middle;
 }
 
 .parThree span {
@@ -467,7 +475,7 @@ body {
     font-size: 14px;
     color: #484848;
     width: 738px;
-    margin-bottom: 55px;
+    vertical-align: middle;
 }
 
 .space-text {
