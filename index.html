@@ -2,49 +2,137 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>My Company</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<title>Web-design</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="owl-carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="owl-carousel/assets/owl.theme.default.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<div class="header__logo"><p>mycompany</p></div>
-	<nav>
-		<div class="topnav" id="myTopNav">
-			<a href="index.html">HOME</a>
-			<a href="about">ABOUT</a>
-			<a href="#">SERVICES</a>
-			<a href="#">PORTFOLIO</a>
-			<a href="#">TESTIMONIALS</a>
-			<a href="#">CONTACTS</a>
-			<a href="#" id="menu" class="icon">&#9776;</a>
+		<div class="header-container">
+			<div class="logo">
+				<img src="img/LOGO.png" alt="logo">
+			</div>
+			<input type="checkbox" id="menu-checkbox">
+			<nav role="navigation">
+				<label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
+				<ul class="main-menu">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">PORTFOLIO</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
 		</div>
-	</nav>
 	</header>
 	<main>
-		<div class="main__welcome">
-			 <h1>WELCOME ON <span class="mycompany">MYCOMPANY</span></h1>
-			 <p>We are a digital agency with <b>years of experience</b> and with <b>extraordinary people</b></p>
-		</div>
-		<div class="wrapper">
-			<div class="main__about">
-				<div class="about__left">
-					<img class="mw-100" src="img/mac.png" alt="mac">
-				</div>
-				<div class="about__right">
-					<h1>SOME WORDS <b>ABOUT US</b></h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi accusantium beatae repellat iste, ipsam, modi excepturi veritatis aliquid saepe officiis, sapiente vitae eveniet. Nobis dolor numquam, dolore possimus, expedita commodi.</p>
-					<ul>
-						<li><b>Mission -</b><i>We deliver uniqueness and quality</i></li>
-						<li><b>Skills - </b><i>Delivering fast and excellent results</i></li>
-						<li><b>Clients -</b><i>Satisfied clients thanks to our experience</i></li>
-					</ul>
+		<section class="top-slide">
+			<div class="top-container">
+				<div><h2>WE BIELVIE</h2></div>
+				<div><h2>IN QUALITY DESIGN</h2></div>
+				<div><p>Any creative project is unique</p></div>
+				<div><p>and should be provided with</p></div>
+				<div><p>the apporiate quality</p></div>
+			</div>
+		</section>
+		<section class="specialize">
+			<div class="specialize-container">
+				<h3>WE CREATE QUALITY DESIGN.</h3>
+				<p>We specialize in Web Design / Development and Graphic Designs</p>
+				<div class="specialize-cards">
+					<div class="card">
+						<div class="top-card">
+							<img src="img/1.png" alt="image">
+						</div>
+						<div class="bottom-card">
+							<p class="first-p">Redesigning <br>With Personality</p> 
+						</div>
+					</div>
+					<div class="card">
+						<div class="top-card">
+							<img src="img/web-development.png" alt="image">	
+						</div>
+						<div class="bottom-card">
+							<p class="first-p">Somebody once<br>told me the world</p> 
+						</div>
+					</div>
+					<div class="card">
+						<div class="top-card">
+							<img src="img/graphic-design-icon.png" alt="image">
+						</div>
+						<div class="bottom-card">
+							<p class="first-p">Is gonna roll me<br>i ain't the sharpest</p> 
+						</div>
+					</div>
+					<div class="card">
+						<div class="top-card">
+							<img src="img/web-design-icon.png" alt="image">
+						</div>
+						<div class="bottom-card">
+							<p class="first-p">Tool<br>in the shed </p> 
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
+		<section class="portfolio">
+			<h4>OUR WORK</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum et distinctio quibusdam eos amet, porro dolorum voluptatum debitis sed accusamus pariatur iure, id similique earum veritatis quam quas nostrum vero!</p>
+			<div class="toggles">
+				<button id="showall">SHOW ALL</button>
+				<button id="webdev">WEB DEVELOPMENT</button>
+				<button id="webdesign">WEB DESIGN</button>
+				<button id="graphdesign">GRAPHIC DESIGN</button>
+			</div>
+			<div class="posts">
+				<div class="post webdev"><img src="img/Portfolio work 1.jpg" alt="webdev"></div>
+				<div class="post webdev"><img src="img/Portfolio work 11.jpg" alt="webdev"></div>
+				<div class="post webdev"><img src="img/Portfolio work 110.jpg" alt="webdev"></div>
+				<div class="post webdesign"><img src="img/Portfolio work 2.jpg" alt="webdesign"></div>
+				<div class="post webdesign"><img src="img/Portfolio work 4.jpg" alt="webdesign"></div>
+				<div class="post webdesign"><img src="img/Portfolio work 6.jpg" alt="webdesign"></div>
+				<div class="post graphdesign"><img src="img/Portfolio work 7.jpg" alt="graphdesign"></div>
+				<div class="post graphdesign"><img src="img/Portfolio work 8.jpg" alt="graphdesign"></div>
+				<div class="post graphdesign"><img src="img/Portfolio work 9.jpg" alt="graphdesign"></div>
+			</div>
+		</section>
+		<section class="brand-slider">
+			<h4>OUR CLIENTS</h4>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum et distinctio quibusdam eos amet, porro dolorum voluptatum debitis sed accusamus pariatur iure, id similique earum veritatis quam quas nostrum vero!</p>
+			<div class="owl-carousel">
+				<div><img src="img/Client-1.png" alt="client"></div>
+				<div><img src="img/Client-2.png" alt="client"></div>
+				<div><img src="img/Client-3.png" alt="client"></div>
+				<div><img src="img/Client-4.png" alt="client"></div>
+				<div><img src="img/Client-5.png" alt="client"></div>
+				<div><img src="img/Client-6.png" alt="client"></div>
+				<div><img src="img/Client-7.png" alt="client"></div>
+				<div><img src="img/Client-8.png" alt="client"></div>
+				<div><img src="img/Client-1.png" alt="client"></div>
+				<div><img src="img/Client-2.png" alt="client"></div>
+				<div><img src="img/Client-3.png" alt="client"></div>
+				<div><img src="img/Client-4.png" alt="client"></div>
+				<div><img src="img/Client-5.png" alt="client"></div>
+				<div><img src="img/Client-6.png" alt="client"></div>
+				<div><img src="img/Client-7.png" alt="client"></div>
+				<div><img src="img/Client-8.png" alt="client"></div>
+			</div>
+		</section>
 	</main>
 
 
-	<script src="js/script.js"></script>
+
+
+
+
+
+	<script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/srcipt.js"></script>
+	<script src="owl-carousel/owl.carousel.min.js"></script>
 </body>
 </html>
